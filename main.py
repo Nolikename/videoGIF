@@ -88,8 +88,8 @@ def convert_video_to_images(video_file_path):
     return [cv2.imread(f'{tmp_path}{PATH_SEP}{image}') for image in sorted(os.listdir(tmp_path))]
 
 if __name__ == '__main__':
-    results_to_gif([("QB", "/Users/geralt/Desktop/abc/第三方调用文档打开速度-Word/QB-1397.6"),
-                ("Office", "/Users/geralt/Desktop/abc/第三方调用文档打开速度-Word/Office-4672.8"),
-                ("WPS", "/Users/geralt/Desktop/abc/第三方调用文档打开速度-Word/WPS-4140")],
+    results_to_gif([("QB", "/Users/geralt/PycharmProjects/videoGIF/第三方调用文档打开速度-Word/QB-1397.6"),
+                ("Office", "/Users/geralt/PycharmProjects/videoGIF/第三方调用文档打开速度-Word/Office-4672.8"),
+                ("WPS", "/Users/geralt/PycharmProjects/videoGIF/第三方调用文档打开速度-Word/WPS-4140")],
                "/Users/geralt/Desktop/abc/第三方调用文档打开速度-Word.gif" )
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
